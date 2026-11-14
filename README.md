@@ -1,9 +1,4 @@
-<table>
-  <tr>
-    <td><img src="icons/search-128.png" width="64" height="64" alt="Amazon Search Selection Fix icon"></td>
-    <td><h1>Amazon Search Selection Fix</h1></td>
-  </tr>
-</table>
+<h1><img src="icons/search-128.png" width="48" height="48" alt=""> Amazon Search Selection Fix</h1>
 
 Amazon Search Selection Fix is a small Chrome extension that keeps selected text in Amazon's search box from disappearing when the field loses focus during a drag selection.
 
