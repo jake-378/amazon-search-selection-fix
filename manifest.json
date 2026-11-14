@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "AmazonFixed",
+  "version": "1.0",
+  "permissions": ["scripting", "webNavigation"],
+  "host_permissions": ["*://*.amazon.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
