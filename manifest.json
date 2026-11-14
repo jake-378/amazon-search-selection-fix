@@ -5,18 +5,18 @@
   "description": "Keeps selected text in Amazon's search box from disappearing during a drag.",
   "homepage_url": "https://github.com/jake-378/amazon-search-selection-fix",
   "icons": {
-    "16": "icons/icon-16.png",
-    "32": "icons/icon-32.png",
-    "48": "icons/icon-48.png",
-    "128": "icons/icon-128.png"
+    "16": "icons/search-16.png",
+    "32": "icons/search-32.png",
+    "48": "icons/search-48.png",
+    "128": "icons/search-128.png"
   },
   "action": {
     "default_title": "Amazon Search Selection Fix",
     "default_icon": {
-      "16": "icons/icon-16.png",
-      "32": "icons/icon-32.png",
-      "48": "icons/icon-48.png",
-      "128": "icons/icon-128.png"
+      "16": "icons/search-16.png",
+      "32": "icons/search-32.png",
+      "48": "icons/search-48.png",
+      "128": "icons/search-128.png"
     }
   },
   "permissions": ["scripting", "webNavigation"],
