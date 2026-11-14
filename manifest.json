@@ -1,7 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "AmazonFixed",
+  "name": "Amazon Search Selection Fix",
   "version": "1.0",
+  "description": "Keeps selected text in Amazon's search box from disappearing during a drag.",
+  "homepage_url": "https://github.com/jake-378/amazon-search-selection-fix",
   "permissions": ["scripting", "webNavigation"],
   "host_permissions": ["*://*.amazon.com/*"],
   "background": {

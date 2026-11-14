@@ -1,16 +1,16 @@
-# AmazonFixed
+# Amazon Search Selection Fix
 
-AmazonFixed is a small Chrome extension that keeps selected text in Amazon's search box from disappearing when the field loses focus during a drag selection.
+Amazon Search Selection Fix is a small Chrome extension that keeps selected text in Amazon's search box from disappearing when the field loses focus during a drag selection.
 
 ## The problem
 
 When replacing a search term, you may click and drag across the text in Amazon's search field. If you release the mouse outside the field, Amazon can blur the input and clear the selection. You then have to select the text again before typing.
 
-A [MacRumors discussion about Amazon's search-field behavior](https://forums.macrumors.com/threads/strange-search-field-behavior-on-amazon-com.2340913/) describes the user-facing issue and provides additional context. The discussion is a reference only; AmazonFixed is an independent project and is not affiliated with or endorsed by its participants.
+A [MacRumors discussion about Amazon's search-field behavior](https://forums.macrumors.com/threads/strange-search-field-behavior-on-amazon-com.2340913/) describes the user-facing issue and provides additional context. The discussion is a reference only; this is an independent project and is not affiliated with or endorsed by its participants.
 
 ## What it does
 
-AmazonFixed preserves the text selection when the search input is blurred while a non-empty selection remains. When there is no active selection, the input's original blur behavior is allowed.
+The extension preserves the text selection when the search input is blurred while a non-empty selection remains. When there is no active selection, the input's original blur behavior is allowed.
 
 ## How it works
 
@@ -24,18 +24,18 @@ A `MutationObserver` watches the document for the search input if Amazon adds it
 2. Open `chrome://extensions`.
 3. Turn on **Developer mode**.
 4. Select **Load unpacked**.
-5. Choose the `AmazonFixed` folder containing `manifest.json`.
+5. Choose the `amazon-search-selection-fix` folder containing `manifest.json`.
 
 ## Compatibility
 
-AmazonFixed is built for Chrome using Manifest V3 and Chrome's `webNavigation` and `scripting` APIs. Its manifest grants access to `amazon.com` pages. Other browsers are not verified.
+The extension is built for Chrome using Manifest V3 and Chrome's `webNavigation` and `scripting` APIs. Its manifest grants access to `amazon.com` pages. Other browsers are not verified.
 
 The fix depends on Amazon continuing to use the `twotabsearchtextbox` element ID and the relevant blur behavior.
 
 ## Project structure
 
 ```text
-AmazonFixed/
+amazon-search-selection-fix/
 ├── .gitattributes
 ├── background.js
 ├── LICENSE
