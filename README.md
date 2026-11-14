@@ -11,7 +11,7 @@ Amazon Search Selection Fix is a small Chrome extension that keeps selected text
 
 When replacing a search term, you may click and drag across the text in Amazon's search field. If you release the mouse outside the field, Amazon can blur the input and clear the selection. You then have to select the text again before typing.
 
-A [MacRumors discussion about Amazon's search-field behavior](https://forums.macrumors.com/threads/strange-search-field-behavior-on-amazon-com.2340913/) describes the user-facing issue and provides additional context. The discussion is a reference only; this is an independent project and is not affiliated with or endorsed by its participants.
+A [MacRumors discussion about Amazon's search-field behavior](https://forums.macrumors.com/threads/strange-search-field-behavior-on-amazon-com.2340914/) describes the user-facing issue and provides additional context. The discussion is a reference only; this is an independent project and is not affiliated with or endorsed by its participants.
 
 ## What it does
 
